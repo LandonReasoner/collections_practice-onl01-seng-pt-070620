@@ -37,3 +37,4 @@ def add_s(array)
     plural + "s"
   end
 end
+end
