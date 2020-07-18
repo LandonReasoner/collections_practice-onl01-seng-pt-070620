@@ -34,7 +34,9 @@ end
 def add_s(array)
   array.each_with_index.collect do |plural , index|
     if index != 1
-    plural + "s"
+    return plural + "s"
+  else
+    plural
   end
 end
 end
