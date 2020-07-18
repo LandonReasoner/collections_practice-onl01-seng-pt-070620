@@ -37,4 +37,6 @@ def add_s(singular)
     plural + "s"
   end
 end
+    else
+      plural
 end
