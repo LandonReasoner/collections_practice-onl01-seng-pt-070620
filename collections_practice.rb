@@ -32,11 +32,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  arrays = []
-  array.each_with_index do |element , index|
-    if index != array[2]?
-    arrays << element : element + "s"
-  end
-  end
-  arrays
+  array.each_with_index.collect do |element , index|
+    if index != 1
+    element + "s"
 end
