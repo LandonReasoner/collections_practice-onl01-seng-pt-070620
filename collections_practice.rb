@@ -31,10 +31,10 @@ def sum_array(array)
   array.inject(0){|sum , x| sum + x}
 end
 
-def add_s(array)
-  array.each_with_index.collect do |plural , index|
+def add_s(singular)
+  singular.each_with_index.collect do |plural , index|
     if index != 1
-    return plural + "s"
+    puts plural + "s"
   else
     plural
   end
